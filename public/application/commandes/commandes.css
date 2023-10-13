@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#gridMain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px
+}
+#gridLeft{
+    display:    grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px
+}
+#enseigne{
+    display: flex;
+    flex-direction: raw;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(75deg, rgba(46,183,62,0.9613095238095238) 0%, rgba(65,169,72,1) 45%, rgba(150,193,27,1) 100%);
+}
+#gridRight{
+    width: 300px;
+    height: 500px;
+    border: solid black 2px;
+    border-radius: 10px;
+    background: linear-gradient(75deg, rgba(183,71,46,0.9613095238095238) 7%, rgba(71,65,169,1) 45%, rgba(193,27,64,1) 72%);
+}

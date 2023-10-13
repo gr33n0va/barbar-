@@ -1,0 +1,44 @@
+*{    
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    background-color: greenyellow;
+}
+#menuBox{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:90%;
+    width:100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(205,205,231,1) 64%, rgba(0,212,255,1) 100%);
+}
+.menuButton{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:3em;
+    width:5em;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(205,205,231,1) 49%);
+    border: 1px solid black;
+    border-radius:5px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    height:100%;
+    width:99%;
+    border: 1px solid black;
+    padding-left:1%;
+}
+header{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: red;
+    height: 6em;
+}
